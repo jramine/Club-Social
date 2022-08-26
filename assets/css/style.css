@@ -989,7 +989,12 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  padding: 5rem 0 2.5rem 0;
+  padding: 2rem 0 0.5rem 0;
+}
+.logo-footer{
+  width: 90%;
+  margin-left:20%;
+  margin-top: -20%;
 }
 
 .footer h3 {
