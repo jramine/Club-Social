@@ -16,6 +16,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #9fa1a4;
   line-height: 1.5;
+  
 }
 
 
@@ -814,7 +815,7 @@ section {
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    left: -90%;
+    left: 100%;
   }
 
   .navbar .dropdown .dropdown:hover>ul {
@@ -1169,8 +1170,9 @@ section {
   }
 }
 .hero-section {
-  background: linear-gradient(-10deg, #5884cb, #1c3669), url(../img/hero-bg.jpg);
+  background: linear-gradient(-10deg, #305ba1, #172e5c), url(../img/cours.jpg);
   position: relative;
+
 }
 
 .hero-section .wave {
@@ -1328,6 +1330,10 @@ section {
 .footer .credits {
   font-size: 14px;
 }
+.logo-title{
+  margin-left: 37.5%;
+   margin-top: -20%;
+}
 
 .social a {
   display: inline-block;
@@ -1357,4 +1363,20 @@ section {
 
 .social a i {
   line-height: 0;
+}
+@media screen and (max-width:844px) {
+  .logo-footer{
+    width: 65%;
+    padding-top: 10%;
+    margin-left: 22.5%;
+  }
+  .logo-title{
+    margin-left: 28%;
+     margin-top: -15%;
+     font-size: 30px !important;
+  }
+  .middle-footer{
+    margin-left: 3%;
+  }
+  
 }
