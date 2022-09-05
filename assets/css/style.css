@@ -708,6 +708,10 @@ section {
   margin: 0;
   max-height: 40px;
 }
+.paragraph{
+  border-left: 7px solid #1c3669;
+  padding: 0px 0px 0px 15px;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -721,7 +725,6 @@ section {
 
 .navbar ul {
   margin: 0;
-  padding: 0;
   display: flex;
   list-style: none;
   align-items: center;
@@ -733,15 +736,27 @@ section {
 
 .navbar a,
 .navbar a:focus {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 20px 0 10px 30px;
   font-size: 16px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(185, 30, 30, 0.65);
   white-space: nowrap;
+  transition: 0.3s; */
+  
+  width: 100%;
+  display: block;
+  color: rgba(255, 255, 255, 0.65);;
+  text-align: center;
+  padding: 2px 15px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  border-bottom: 3px solid transparent;
   transition: 0.3s;
+  
 }
 
 .navbar a i,
@@ -756,6 +771,7 @@ section {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #fff;
+  border-bottom: 3px solid white;
 }
 
 .navbar .dropdown ul {
