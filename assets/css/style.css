@@ -944,11 +944,11 @@ section {
 # Courses
 --------------------------------------------------------------*/
 .course-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.09);
 
 }
 .course-item{
-  transition: transform 0.2s;
+  transition: transform 0.4s;
 }
 .courses .course-item {
   border-radius: 5px;
