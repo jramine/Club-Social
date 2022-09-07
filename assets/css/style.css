@@ -129,6 +129,16 @@ section {
   border: 2px solid #fff;
   background: none;
   color: #fff;
+  margin-left: 2.5%;
+}
+@media (max-width: 845px) {
+  .btn.btn-outline-white{
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+  
+  
+  
 }
 
 .btn.btn-outline-white:hover {
